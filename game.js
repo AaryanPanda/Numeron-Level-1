@@ -77,7 +77,7 @@ setInterval(stopWatch, 1000)
 
 
 //Gameover Function
-function gameover() {
-    localStorage.setItem("score", score)
-    location.href = "gameover.html"
-}
+    function gameover() {
+        localStorage.setItem("score", score)
+        location.href = "gameover.html"
+    }
